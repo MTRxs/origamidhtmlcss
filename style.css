@@ -1,7 +1,12 @@
 body {
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
   display: grid;
   background: #f7f7f7;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
 
 .logo {
@@ -21,47 +26,47 @@ body {
 .menutop a {
   text-decoration: none;
   font-weight: bold;
-  color: #414141;
+  color: #252525;
   background: #ffff;
   padding: 16px 24px;
 }
 
 .main-content {
   display: grid;
-  flex-wrap: wrap;
   justify-content: center;
   margin-top: 48px;
   border-radius: 3px;
   grid-template-columns: 382px 382px;
 }
 
-.main-content-item {
+.main-content-item1 {
   width: 382px;
   height: 290px;
-  background: seagreen;
+  background: #ffff;
   border: 0px solid blue;
 }
 
-.main-content-item img {
+.main-content-item2 img {
   max-width: 382px;
   height: 290px;
 }
 
-.main-content-item h1 {
+.main-content-item1 h1 {
+  background: #ffff;
   font-weight: 700;
   display: grid;
   text-align: right;
   font-size: 25px;
+  height: 118px;
   padding: 35px 30px 120px 52px;
 }
-.main-content-item p {
+.main-content-item1 p {
   font-size: 20px;
   font-weight: 530;
   display: grid;
-  text-align: center;
   text-align: right;
   padding: 1px 30px;
-  margin-top: -123px;
+  margin-top: -195px;
 }
 
 .vermais {
@@ -69,25 +74,61 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  align-items: center;
   color: #ffff;
   background: #ee2211;
   text-decoration: none;
   width: 110px;
   height: 40px;
   border-radius: 4px;
-  place-self: end;
   margin: auto 30px auto auto;
 }
 
-#bloco1 {
-  background: #ffff;
+.main-content-item3 span {
+  color: #c6c6c6;
+  font-size: 48px;
+  font-weight: bold;
+  display: grid;
+  margin-right: 30px;
+  margin-top: 80px;
+  line-height: 60px;
+  text-align: end;
 }
 
-#bloco3 {
-  background: #f7f7f7;
+.main-content-item4 {
+  background: #ffff;
+  height: 290px;
 }
 
-#bloco4 {
+.main-content-item4 h3 {
+  line-height: 8px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* Adicione um pequeno espaço entre a imagem e o texto, se necessário */
+}
+
+.main-content-item4 img {
+  margin-left: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: auto;
+}
+
+.main-content-item4 p {
+  font-size: 15px;
+  text-align: left;
+  margin-left: 75px;
+  margin-top: auto;
+  font-weight: bold;
+}
+
+.footer p {
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
   background: #ffff;
+  width: 766px;
+  height: 80px;
+  margin-bottom: 0;
+  margin-top: 50px;
 }
